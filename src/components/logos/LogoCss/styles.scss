@@ -1,0 +1,44 @@
+.logo-css{
+    display: flex;
+    flex-direction: column;
+    width: 9rem;
+    height: 9rem;
+    position: relative;
+    padding: 1rem;
+
+    &:hover .logo-css__text{
+        color: #d8d9dd;
+    }
+
+    .logo-css__text{
+        font-size: 2.5rem;
+        color: #2a2d34;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s all;
+    }
+
+    .logo-css__border{
+        border: 1px solid #2a2d34;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: 0.5s all;
+
+        @keyframes spinBorder {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        &:hover{
+            animation: spinBorder 3s linear infinite;
+            border-color:#cd7400;
+        }
+    }
+}

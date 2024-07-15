@@ -1,0 +1,13 @@
+.page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    gap: 1rem;
+    color: white;
+    letter-spacing: 2px;
+
+    hr {
+        width: 80%;
+    }
+}

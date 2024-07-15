@@ -1,0 +1,29 @@
+.button-outline{
+    color: #d8d9dd;
+    font-size: 2rem;
+    padding: 1.5rem 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background 0.5s;
+    border-radius: 4px;
+    height: fit-content;
+}
+
+.button-outline--light{
+    border: 1px solid #d8d9dd;
+
+    &:hover {
+        background-position: right center;
+        background-image: linear-gradient(to right, #cd7400 60%, #fe9e23 100%);
+    }
+}
+
+.button-outline--dark{
+    border: 1px solid #2a2d32;
+    transition: all 0.5s;
+
+    &:hover{
+        border-color: #d8d9dd;
+        color: white;
+    }
+}

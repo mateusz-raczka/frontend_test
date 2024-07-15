@@ -1,0 +1,25 @@
+.input-radio-wrapper{
+    color: #d8d9dd;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    input{
+        width: 3.2rem;
+        height: 3.2rem;
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+        outline: none;
+        transition: background-color 0.5s ease;
+    }
+
+    input:checked{
+        background-color: #ffffff;
+        box-shadow: 0 0 0 4px rgb(0, 0, 0) inset;
+    }
+
+    & > *:hover{
+        cursor: pointer;
+    }
+}

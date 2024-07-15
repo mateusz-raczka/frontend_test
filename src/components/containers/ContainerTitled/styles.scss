@@ -1,0 +1,24 @@
+.container-titled{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: #70747f;
+    font-size: 1.5rem;
+    flex: 1;
+
+    p{
+        text-align: center;
+    }
+
+    h3{
+        font-size: 2rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        padding: 0.5rem;
+
+        @media screen and (min-width: 960px){
+            align-self: center;
+        }
+    }
+}

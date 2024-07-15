@@ -1,0 +1,17 @@
+.menu-show-more{
+    color: black;
+    font-size: 1.7rem;
+    user-select: none;
+    text-transform: uppercase;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-weight: bold;
+
+    .menu-show-more__option{
+        &:hover{
+            color: #fe9e23;
+            cursor: pointer;
+        }
+    }
+}
